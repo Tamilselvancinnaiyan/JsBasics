@@ -6,4 +6,4 @@ const anagram = (a, a1) => {
     
 }
 
-console.log(anagram(a, a1));
+// console.log(anagram(a, a1)); // comment out this due to the cu

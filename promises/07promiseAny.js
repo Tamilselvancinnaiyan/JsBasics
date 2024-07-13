@@ -29,6 +29,6 @@ Promise.any([p1, p2, p3])
 /**
  * The Promise.any method will give us the response that what ever promise resolve first.
  * 
- * Consider the scenario where we have three Promise objects: p1, p2, and p3. Each of these promises will resolve after 1, 2, and 5 seconds respectively. When using the Promise.raanyce method, it will  wait for the promises to which is resolve first; it will give us the response from whichever promise resolves or rejects first.
+ * Consider the scenario where we have three Promise objects: p1, p2, and p3. Each of these promises will resolve after 1, 2, and 5 seconds respectively. When using the Promise.race method, it will  wait for the promises to which is resolve first; it will give us the response from whichever promise resolves or rejects first.
  */
 
